@@ -1,4 +1,18 @@
+.navbar {
+  position: relative;
+  text-align: right;
+  color:#d2cec2;
+}
+a {
+  color:#d2cec2;
+}
+form {
+  color:#d2cec2;
+}
 
+.btn{
+  color:black;
+}
 .top {
   position: relative;
 

@@ -1,0 +1,14 @@
+<div class = "errors"
+<% if @user.errors.any? %>
+  <section class="errors">
+    <ul>
+      <% @user.errors.full_messages.each do |error| %>
+        <%= error %>
+        <br>
+      <% end %>
+    </ul>
+  </section>
+<% end %>
+</div>
+
+<%= erb :'users/_new_user_form'%>

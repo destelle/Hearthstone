@@ -18,6 +18,18 @@
   <title></title>
 </head>
 <body >
+<%= erb :'cover'%>
+<nav class="navbar">
+  <% if session[:username]%>
+    <a href = "/users/<%=session[:username]%>"><%=session[:username]%></a>
+    <a id="log-out-button"  href="/users/logout">log out</a>
+  <% else %>
+      <a href ='/users/new'>register</a>
+      <a href ='/users/login'>login</a>
+  <%end %>
+</nav>
+<div class = "main">
   <%= yield %>
+  </div>
 </body>
 </html>
