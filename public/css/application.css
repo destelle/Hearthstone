@@ -1,0 +1,41 @@
+
+.top {
+  position: relative;
+
+}
+
+.site-title{
+  position: relative;
+  text-align: center;
+  width:100%;
+  top:30%;
+  max-height:50%;
+  font-size: 90%;
+  color:#d2cec2;
+}
+
+#dino {
+  width: 100%;
+  position:relative;
+  left:0px;
+  top:0px;
+  z-index:-1;
+}
+#logo {
+  width:25%;
+  position:absolute;
+  left:68%;
+  top:10px;
+  z-index:-1;
+}
+
+
+body {
+  margin: auto;
+  width:75%;
+  background-size: auto;
+   background: rgb(87, 90, 103);
+
+
+
+}
